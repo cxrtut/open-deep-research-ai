@@ -74,6 +74,7 @@ export default async function Page(props: {
       ],
       model: togetheraiClient(MODEL_CONFIG.planningModel),
     });
+
     const result = await generateObject({
       system: dedent(PROMPTS.clarificationParsingPrompt),
       model: togetheraiClient(MODEL_CONFIG.jsonModel),
@@ -86,6 +87,7 @@ export default async function Page(props: {
       schema: z.object({
         questions: z.array(z.string()),
       }),
+      maxRetries: 3,
     });
 
     await db
