@@ -10,7 +10,7 @@ const redis =
       })
     : undefined;
 
-const isLocal = false; //process.env.NODE_ENV !== "production";
+const isLocal = process.env.NODE_ENV !== "production";
 
 // 1 per day
 const ratelimit =

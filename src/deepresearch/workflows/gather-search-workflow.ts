@@ -7,11 +7,7 @@ import { createWorkflow } from "@upstash/workflow/nextjs";
 import { stateStorage, streamStorage } from "../storage";
 import { WorkflowContext } from "@upstash/workflow";
 import { generateText, generateObject } from "ai";
-import {
-  searchOnWeb,
-  togetheraiClient,
-  togetheraiClientWithKey,
-} from "../apiClients";
+import { togetheraiClientWithKey } from "../apiClients";
 import { MODEL_CONFIG, PROMPTS, RESEARCH_CONFIG } from "../config";
 import {
   researchPlanSchema,
@@ -25,6 +21,7 @@ import {
   IterationCompletedEvent,
   ErrorEvent,
 } from "../schemas";
+import { searchOnWeb } from "../webSearch";
 
 // Helper function to summarize content
 const summarizeContent = async ({
