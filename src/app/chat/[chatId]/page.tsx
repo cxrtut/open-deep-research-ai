@@ -10,7 +10,6 @@ import dedent from "dedent";
 import { togetheraiClient } from "@/deepresearch/apiClients";
 import z from "zod";
 import { ChatPage } from "@/components/app/ChatPage";
-import { extractMarkdownHeadings } from "@/lib/utils";
 
 export async function generateMetadata({
   params,

@@ -2,9 +2,6 @@ import { streamStorage } from "@/deepresearch/storage";
 import { StreamEvent } from "@/deepresearch/schemas";
 import { getResearch } from "@/db/action";
 
-export const runtime = "edge";
-export const dynamic = "force-dynamic"; // Required for streaming
-
 // Types for streaming data
 
 interface ResearchStatusRow {
