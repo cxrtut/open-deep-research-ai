@@ -1,9 +1,5 @@
-import {
-  togetheraiClient,
-  togetheraiClientWithKey,
-} from "@/deepresearch/apiClients";
+import { togetheraiClientWithKey } from "@/deepresearch/apiClients";
 import { generateText } from "ai";
-import Together from "together-ai";
 
 export async function POST(request: Request) {
   const { apiKey } = await request.json();
@@ -19,8 +15,8 @@ export async function POST(request: Request) {
     const customClient = togetheraiClientWithKey(apiKey);
     // Make a simple LLM call to validate the API key
     await generateText({
-      model: customClient("meta-llama/Llama-3.2-3B-Instruct-Turbo"),
-      maxTokens: 1,
+      model: customClient("Qwen/Qwen2.5-72B-Instruct-Turbo"),
+      maxTokens: 100,
       messages: [
         {
           role: "user",
