@@ -33,4 +33,4 @@
 2. Create accounts at [Together.ai](https://togetherai.link) and [AWS](https://aws.amazon.com/) for LLM and S3
 3. Set up Clerk for authentication ([Clerk.dev](https://clerk.dev/))
 4. Create a `.env` file (use `.example.env` for reference) and add your API keys
-5. Run `pnpm install` and `pnpm run dev` to install dependencies and start the app locally
+5. Run `npm install` and `npm run dev` to install dependencies and start the app locally
