@@ -46,7 +46,7 @@ export const LandingHero = () => {
       >
         <p className="text-[32px] md:text-[40px] font-medium text-center text-[#1e2939] font-serif">
           {!isAuthenticated ? (
-            <>Reports with Open Deep Research</>
+            <>Reports with Wikisynth Deep Research</>
           ) : (
             <>Welcome Back, {user.firstName || user.fullName || "Researcher"}</>
           )}

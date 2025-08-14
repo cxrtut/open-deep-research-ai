@@ -16,7 +16,7 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Open Deep Research",
+  title: "Wikisynth",
   description: "Let AI do research for you",
   openGraph: {
     images: ["https://www.opendeepresearch.dev/og.jpg"],

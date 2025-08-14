@@ -24,17 +24,17 @@ export const Footer = () => {
             Together AI
           </a>
         </span>
-        <span className="h-5 w-px bg-zinc-300 mx-2" />
-        <a
+        {/* <span className="h-5 w-px bg-zinc-300 mx-2" /> */}
+        {/* <a
           href="https://www.together.ai/blog/open-deep-research"
           target="_blank"
           rel="noreferrer"
           className="hover:text-zinc-600 transition-colors text-xs font-semibold px-3"
         >
           Blog on how it works
-        </a>
-        <span className="h-5 w-px bg-zinc-300 mx-2" />
-        <div className="flex gap-2 items-center px-3">
+        </a> */}
+        {/* <span className="h-5 w-px bg-zinc-300 mx-2" /> */}
+        {/* <div className="flex gap-2 items-center px-3">
           <a
             href="https://github.com/Nutlope/open-deep-research"
             target="_blank"
@@ -45,7 +45,7 @@ export const Footer = () => {
             <FaGithub size={18} />
             Star on GitHub
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

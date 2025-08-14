@@ -20,8 +20,8 @@ export async function generateMetadata({
 
   if (!chatId) {
     return {
-      title: "Chat Not Found | Open Deep Research",
-      description: "This chat could not be found on Open Deep Research",
+      title: "Chat Not Found | Wikisynth",
+      description: "This chat could not be found on Wikisynth Deep Research",
     };
   }
 
@@ -33,12 +33,12 @@ export async function generateMetadata({
 
   const topic = researchData.title || researchData.initialUserMessage;
 
-  const title = `${topic} | Open Deep Research`;
+  const title = `${topic} | Wikisynth Deep Research`;
   const description = `Discover the research on "${topic}" generated using ${
     researchData.sources && researchData.sources?.length > 0
       ? researchData.sources.length
       : "multiple"
-  } sources on Open Deep Research`;
+  } sources on Wikisynth Deep Research`;
 
   return {
     title: title,

@@ -43,12 +43,12 @@ export const FinalReportPage = ({
             <div className=" text-zinc-800 dark:text-zinc-100">
               <img
                 src="/logo.svg"
-                alt="Open Deep Research"
+                alt="Wikisynth Deep Research"
                 className="size-6"
               />
             </div>
             <div className="text-lg font-bold text-zinc-800 dark:text-zinc-100">
-              Open Deep Research
+              Wikisynth Research
             </div>
           </div>
         </a>
