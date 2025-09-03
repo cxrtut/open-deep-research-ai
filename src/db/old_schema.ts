@@ -19,7 +19,7 @@ export const deepresearchStautsEnum = pgEnum("status", [
 ]);
 
 export const research = pgTable("chats", {
-  id: varchar("id", { length: 255 }) // explicit varchar with length
+  id: varchar()
     .primaryKey()
     .$defaultFn(() => nanoid()),
   clerkUserId: varchar(),

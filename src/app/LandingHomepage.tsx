@@ -27,11 +27,11 @@ export const LandingHomepage = () => {
               <SignInButton>
                 <div className="flex justify-center items-center relative gap-1.5 px-5 py-2 rounded bg-[#072d77] border-[0.5px] border-[#072d77] cursor-pointer">
                   <p className="flex-grow-0 flex-shrink-0 text-base font-medium text-left text-white">
-                    Generate a report
+                    Generate a report arcticle  
                   </p>
                 </div>
               </SignInButton>
-              <p className="text-xs text-center text-[#99a1af] pb-4">
+              {/* <p className="text-xs text-center text-[#99a1af] pb-4">
                 Fully{" "}
                 <a
                   href="https://github.com/Nutlope/open-deep-research"
@@ -39,7 +39,7 @@ export const LandingHomepage = () => {
                 >
                   open source
                 </a>
-              </p>
+              </p> */}
             </div>
             <div className="max-w-[760px] min-h-[258px] w-fit md:w-full relative overflow-hidden rounded-xl bg-[#f2f6ff] border border-gray-200 px-7 py-5 flex flex-col gap-4 mb-12">
               <p className="text-base text-center md:text-left text-[#364153] font-serif">

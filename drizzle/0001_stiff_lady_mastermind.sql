@@ -1,0 +1,1 @@
+ALTER TABLE "chats" ALTER COLUMN "id" SET DATA TYPE varchar(255);
