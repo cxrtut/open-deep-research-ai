@@ -14,15 +14,15 @@ export const Footer = () => {
           >
             DeepSeek V3
           </a>{" "}
-          on{" "}
-          <a
+          {/* on{" "} */}
+          {/* <a
             target="_blank"
             rel="noreferrer"
             href="https://togetherai.link"
             className="font-semibold hover:text-[#072d77] transition"
           >
             Together AI
-          </a>
+          </a> */}
         </span>
         {/* <span className="h-5 w-px bg-zinc-300 mx-2" /> */}
         {/* <a

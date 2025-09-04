@@ -22,7 +22,7 @@ export const LandingHero = () => {
 
   return (
     <>
-      <a
+      {/* <a
         href="https://togetherai.link/"
         target="_blank"
         rel="noreferrer"
@@ -36,7 +36,7 @@ export const LandingHero = () => {
           className="w-[77.3px] h-[12.94px] mt-0.5 object-fill"
           alt="Together.ai logo"
         />
-      </a>
+      </a> */}
 
       <div
         className={cn(
