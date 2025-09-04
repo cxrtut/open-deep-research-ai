@@ -139,3 +139,5 @@ CREATE TABLE IF NOT EXISTS "chats" (
 ⚡ Notice → id varchar(255) PRIMARY KEY NOT NULL (not an identity).
 
 👉 Gift, do you want me to walk you through dropping the broken table in Neon and regenerating clean migrations so you don’t keep hitting the identity column issue?
+
+Trip to the moon in the 1960s
